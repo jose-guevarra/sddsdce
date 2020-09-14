@@ -1,0 +1,7 @@
+mysql:
+    host: 127.0.0.1
+    user: dbusername
+    password: "yourpassword"
+    db: sddsdce
+dsdurl: "https://aca.accela.com/SANDIEGO/Cap/CapHome.aspx?module=CE&TabName=CE&TabList=Home%7C0%7CDSD%7C1%7CCE%7C2%7CCurrentTabIndex%7C2"
+    
