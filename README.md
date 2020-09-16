@@ -40,6 +40,8 @@ mysql $> SELECT * FROM `sddsdce` WHERE `Application Name` LIKE "Noise%" AND `Sta
 
 @TODO: Create script that exports a nicely formatted csv file to upload to Google Maps.
 
+For Example:
+https://www.google.com/maps/d/edit?mid=1SQYMWcEzAaNwBHTkds08-RitDERTLalz&usp=sharing
 
 
 
