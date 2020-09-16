@@ -36,7 +36,7 @@ def main():
 
     cursor = connection.cursor()
 
-    q = """SELECT * FROM `sddsdce` WHERE apn IS NULL ORDER BY FIELD(`Status`, 'New', 'Active Investigation', 'Active Enforcement') DESC, Date DESC"""
+    q = """SELECT * FROM `sddsdce` WHERE apn IS NULL ORDER BY Date DESC, FIELD(`Status`, 'New', 'Active Investigation', 'Active Enforcement') DESC"""
     cursor.execute(q)
     records = cursor.fetchall()
     numrecords = totalrecords = cursor.rowcount
