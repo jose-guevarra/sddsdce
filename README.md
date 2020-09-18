@@ -16,6 +16,7 @@ Installation:
 hint: https://tecadmin.net/setup-selenium-chromedriver-on-ubuntu/
 
 $> pip3 install mysql-connector
+
 $> pip3 install selenium
 
 
