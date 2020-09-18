@@ -5,7 +5,7 @@ for San Diego DSD Code Violations. The City of San Diego uses a proprietary web
 application to submit and provide access to various city violations e.g. barking dogs,
 unpermitted structures, loud music. This project will allow you to:
 
-- Import/Update them into an SQL database
+- Import/Update them into an SQL database 
 - Automate webscraping of APN(property id) information from the city website
 - Allow some tools to export the database into csv format
 
@@ -24,7 +24,7 @@ Run Import:
 
 Step 1: Download all "complaint" records(csv) from https://aca.accela.com/SANDIEGO/Welcome.aspx
 
-Step 2: Import records into the database. Records status will be updated if they already exist.
+Step 2: Import records into the database. Records status will be updated if they already exist.  This allows you to keep old records that were deleted and update the status on current records.
 
 $>  python3 sddsdce_import.py -f path/to/[CSVFILENAME] -u
 
